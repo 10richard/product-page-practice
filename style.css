@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-page {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #3F494E;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.under-top-page {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.dice {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.features-section, .testimonial-section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 50px 0;
+    gap: 40px;
+}
+
+.testimonial-section {
+    background-color: #60686C;
+}
+
+.features-section, .model {
+    background-color: #D0CCD0;
+}
+
+.features {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.model {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.sign-up {
+    margin: 0 20px;
+}
+
+.footer {
+    text-align: center;
+    margin: 50px;
+    background-color: black;
+    color: white;
+}
