@@ -74,36 +74,81 @@ a {
     margin: 0 60px 0 0;
 }
 
-.features-section, .testimonial-section{
+.features-section {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
-    margin: 50px 0;
+    margin: 50px 0 2px;
     gap: 40px;
 }
 
-.testimonial-section {
-    background-color: #60686C;
+.features-section, .testimonial-section {
+    background-color: #E5E4E2;
 }
 
-.features-section, .model {
-    background-color: #D0CCD0;
+.dealer-table {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style:solid;
 }
 
 .features {
     display: flex;
     width: 1000px;
     justify-content: space-between;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.testimonial-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 200px;
+    margin: 0 0 2px;
+}
+
+.testimonials {
+    display: flex;
+    gap: 100px;
+    margin: 20px 0 50px;
+}
+
+.testimonial {
+    flex: initial;
+    width: 200px;
+    text-align: center;
+}
+
+.bottom-page {
+    background-color: #E5E4E2;
+    padding: 40px;
+    margin: 20px 0 0;
 }
 
 .model {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
+}
+
+.model-text {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .sign-up {
-    margin: 0 20px;
+    width: 125px;
+    height: 32px;
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: rgb(18, 94, 236);
+    color: white;
 }
 
 footer {
